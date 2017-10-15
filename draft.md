@@ -20,7 +20,9 @@ Copyright (c) 2017 IETF Trust and the persons identified as the document authors
 Bla
 
 ## Introduction
-Bla
+IPsec JSON is a specification for describing IPsec VPN connection profiles, cipher suites and associated network configurations in JSON [RFC4627].
+
+IPsec is notoriously difficult to configure and test, particularly cross-vendor interoperability. IPsec JSON is designed to provide a common, unambiguous language that can be transformed programmatically into vendor-specific device configurations.
 
 ## Conventions used in this Document
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119]. The grammatical rules in this document are to be interpreted as described in [RFC5234]. 
