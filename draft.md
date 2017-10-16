@@ -36,8 +36,20 @@ Bla
 ### Connection Object
 Bla
 
+'''
+{
+  "keyexchange": {},
+  "ipsec": {}
+}
+'''
+
 ### Cipher Suite Object
 Bla
+
+### Keyexchange Object
+Bla
+
+### IPsec Object
 
 ## Security Considerations
 Bla
