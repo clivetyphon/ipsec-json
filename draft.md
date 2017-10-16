@@ -36,12 +36,13 @@ Bla
 ### Connection Object
 Bla
 
-'''
+```
 {
   "keyexchange": {},
-  "ipsec": {}
+  "ipsec": {},
+  "network": {}
 }
-'''
+```
 
 ### Cipher Suite Object
 Bla
