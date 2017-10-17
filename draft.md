@@ -63,7 +63,10 @@ A Cipher Suite object MUST contain at least the following top-level members:
 
 In addition, a Cipher Suite object MAY contain any of these top-level members:
 
- - bla
+ - encryption
+ - pseudo-random-function
+ - integrity
+ - dh-group
 
 ### Key Exchange Object
 Bla
