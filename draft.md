@@ -35,7 +35,7 @@ Bla
 
 ### Connection Object
 
-“Connection objects” appear in a JSON API document to represent IPsec connection profiles.
+“Connection objects” appear in an IPsec JSON document to represent IPsec connection profiles.
 
 A Connection object MUST contain at least the following top-level members:
 
@@ -54,9 +54,18 @@ A Connection object MUST contain at least the following top-level members:
 ```
 
 ### Cipher Suite Object
-Bla
 
-### Keyexchange Object
+“Cipher Suite objects” appear in an IPsec JSON document to represent the combination of encryption, authentication, integrity and perfect forward secrecy algorithms required in a Security Association.
+
+A Cipher Suite object MUST contain at least the following top-level members:
+
+ - bla
+
+In addition, a Cipher Suite object MAY contain any of these top-level members:
+
+ - bla
+
+### Key Exchange Object
 Bla
 
 ### IPsec Object
