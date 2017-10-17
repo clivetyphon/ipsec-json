@@ -34,10 +34,19 @@ Bla
 Bla
 
 ### Connection Object
-Bla
+
+“Connection objects” appear in a JSON API document to represent IPsec connection profiles.
+
+A Connection object MUST contain at least the following top-level members:
+
+ - name: The unique name of the connection profile. The value of the name member MUST be a string.
+ - keyexchange: A Key Exchange object representing the ISAKMP key exchange or equivalent configuration.
+ - ipsec: An IPsec object representing the IPsec protocol configuration.
+ - network: A Network object representing the network configuration of the IPsec connection profile.
 
 ```
 {
+  "name": ""
   "keyexchange": {},
   "ipsec": {},
   "network": {}
