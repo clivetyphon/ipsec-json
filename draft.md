@@ -77,7 +77,7 @@ Bla
 
 An encryption algorithm string MAY be any of these values:
 
- -`3des`: 168 bit 3DES-EDE-CBC
+ - `3des`: 168 bit 3DES-EDE-CBC
  -`cast128`: 128 bit CAST-CBC
  -`blowfish128 or blowfish`: 128 bit Blowfish-CBC
  -`blowfish192`: 192 bit Blowfish-CBC
@@ -126,6 +126,24 @@ An encryption algorithm string MAY be any of these values:
  -`camellia192ccm16or camellia192ccm128`: 192 bit Camellia-CCM with 128 bit ICV
  -`camellia256ccm16or camellia256ccm128`: 256 bit Camellia-CCM with 128 bit ICV
  -`chacha20poly1305`: 256 bit ChaCha20/Poly1305 with 128 bit ICV
+
+## Identity algorithm
+
+An identity algorithm string MAY be any of these values:
+
+ - `md5`: MD5 HMAC
+ - `md5_128`: MD5_128 HMAC
+ - `sha1 or sha`: SHA1 HMAC
+ - `sha1_160`: SHA1_160 HMAC
+ - `aesxcbc`: AES XCBC
+ - `aescmac`: AES CMAC
+ - `aes128gmac`: 128-bit AES-GMAC
+ - `aes192gmac`: 192-bit AES-GMAC
+ - `aes256gmac`: 256-bit AES-GMAC
+ - `sha256 or sha2_256`: SHA2_256_128 HMAC
+ - `sha384 or sha2_384`: SHA2_384_192 HMAC
+ - `sha512 or sha2_512`: SHA2_512_256 HMAC
+ - `sha256_96or sha2_256_96`: SHA2_256_96 HMAC
 
 ## Security Considerations
 Bla
