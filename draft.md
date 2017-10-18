@@ -73,6 +73,60 @@ Bla
 
 ### IPsec Object
 
+## Encryption algorithms
+
+An encryption algorithm string MAY be any of these values:
+
+ -`3des`: 168 bit 3DES-EDE-CBC
+ -`cast128`: 128 bit CAST-CBC
+ -`blowfish128 or blowfish`: 128 bit Blowfish-CBC
+ -`blowfish192`: 192 bit Blowfish-CBC
+ -`blowfish256`: 256 bit Blowfish-CBC
+ -`null`: Null encryption
+ -`aes128 or aes`: 128 bit AES-CBC
+ -`aes192`: 192 bit AES-CBC
+ -`aes256`: 256 bit AES-CBC
+ -`aes128ctr`: 128 bit AES-COUNTER
+ -`aes192ctr`: 192 bit AES-COUNTER
+ -`aes256ctr`: 256 bit AES-COUNTER
+ -`aes128ccm8 or aes128ccm64`: 128 bit AES-CCM with 64 bit ICV
+ -`aes192ccm8 or aes192ccm64`: 192 bit AES-CCM with 64 bit ICV
+ -`aes256ccm8 or aes256ccm64`: 256 bit AES-CCM with 64 bit ICV
+ -`aes128ccm12 or aes128ccm96`: 128 bit AES-CCM with 96 bit ICV
+ -`aes192ccm12 or aes192ccm96`: 192 bit AES-CCM with 96 bit ICV
+ -`aes256ccm12 or aes256ccm96`: 256 bit AES-CCM with 96 bit ICV
+ -`aes128ccm16 or aes128ccm128`: 128 bit AES-CCM with 128 bit ICV
+ -`aes192ccm16 or aes192ccm128`: 192 bit AES-CCM with 128 bit ICV
+ -`aes256ccm16 or aes256ccm128`: 256 bit AES-CCM with 128 bit ICV
+ -`aes128gcm8 or aes128gcm64`: 128 bit AES-GCM with 64 bit ICV
+ -`aes192gcm8 or aes192gcm64`: 192 bit AES-GCM with 64 bit ICV
+ -`aes256gcm8 or aes256gcm64`: 256 bit AES-GCM with 64 bit ICV
+ -`aes128gcm12 or aes128gcm96`: 128 bit AES-GCM with 96 bit ICV
+ -`aes192gcm12 or aes192gcm96`: 192 bit AES-GCM with 96 bit ICV
+ -`aes256gcm12 or aes256gcm96`: 256 bit AES-GCM with 96 bit ICV
+ -`aes128gcm16 or aes128gcm128`: 128 bit AES-GCM with 128 bit ICV
+ -`aes192gcm16 or aes192gcm128`: 192 bit AES-GCM with 128 bit ICV
+ -`aes256gcm16 or aes256gcm128`: 256 bit AES-GCM with 128 bit ICV
+ -`aes128gmac`: Null encryption with 128 bit AES-GMAC
+ -`aes192gmac`: Null encryption with 192 bit AES-GMAC
+ -`aes256gmac`: Null encryption with 256 bit AES-GMAC
+ -`camellia128 or camellia`: 128 bit Camellia-CBC
+ -`camellia192`: 192 bit Camellia-CBC
+ -`camellia256`: 256 bit Camellia-CBC
+ -`camellia128ctr`: 128 bit Camellia-COUNTER
+ -`camellia192ctr`: 192 bit Camellia-COUNTER
+ -`camellia256ctr`: 256 bit Camellia-COUNTER
+ -`camellia128ccm8 or camellia128ccm64`: 128 bit Camellia-CCM with 64 bit ICV
+ -`camellia192ccm8 or camellia192ccm64`: 192 bit Camellia-CCM with 64 bit ICV
+ -`camellia256ccm8 or camellia256ccm64`: 256 bit Camellia-CCM with 64 bit ICV
+ -`camellia128ccm12or camellia128ccm96`: 128 bit Camellia-CCM with 96 bit ICV
+ -`camellia192ccm12or camellia192ccm96`: 192 bit Camellia-CCM with 96 bit ICV
+ -`camellia256ccm12or camellia256ccm96`: 256 bit Camellia-CCM with 96 bit ICV
+ -`camellia128ccm16or camellia128ccm128`: 128 bit Camellia-CCM with 128 bit ICV
+ -`camellia192ccm16or camellia192ccm128`: 192 bit Camellia-CCM with 128 bit ICV
+ -`camellia256ccm16or camellia256ccm128`: 256 bit Camellia-CCM with 128 bit ICV
+ -`chacha20poly1305`: 256 bit ChaCha20/Poly1305 with 128 bit ICV
+
 ## Security Considerations
 Bla
 
